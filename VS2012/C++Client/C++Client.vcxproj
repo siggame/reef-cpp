@@ -46,7 +46,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Chester\Documents\GitHub\MegaMinerAI-11\client\library;C:\Users\Chester\Documents\GitHub\MegaMinerAI-11\client\library\sexp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -59,7 +59,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Chester\Documents\GitHub\MegaMinerAI-11\client\library;C:\Users\Chester\Documents\GitHub\MegaMinerAI-11\client\library\sexp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -86,14 +86,14 @@
     <ClInclude Include="..\..\Tile.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\library\game.cpp" />
-    <ClCompile Include="..\..\..\library\getters.cpp" />
-    <ClCompile Include="..\..\..\library\network.cpp" />
-    <ClCompile Include="..\..\..\library\sexp\parser.cpp" />
-    <ClCompile Include="..\..\..\library\sexp\sexp.cpp" />
-    <ClCompile Include="..\..\..\library\sexp\sfcompat.cpp" />
-    <ClCompile Include="..\..\..\library\sexp\winlex.cpp" />
-    <ClCompile Include="..\..\..\library\util.cpp" />
+    <ClCompile Include="..\..\library\game.cpp" />
+    <ClCompile Include="..\..\library\getters.cpp" />
+    <ClCompile Include="..\..\library\network.cpp" />
+    <ClCompile Include="..\..\library\sexp\parser.cpp" />
+    <ClCompile Include="..\..\library\sexp\sexp.cpp" />
+    <ClCompile Include="..\..\library\sexp\sfcompat.cpp" />
+    <ClCompile Include="..\..\library\sexp\winlex.cpp" />
+    <ClCompile Include="..\..\library\util.cpp" />
     <ClCompile Include="..\..\AI.cpp" />
     <ClCompile Include="..\..\BaseAI.cpp" />
     <ClCompile Include="..\..\Fish.cpp" />
